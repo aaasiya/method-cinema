@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 320px;
+    min-height: 100vh;
+    font-family: Inter, sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    padding-top: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1650px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
