@@ -40,6 +40,16 @@
     border-radius: 6px;
     border: none;
     color: var(--color-text);
+    transition: box-shadow 0.2s;
+}
+
+.film-week__watch-btn:hover {
+    box-shadow: 0px 0px 10px 10px var(--color-second);
+}
+
+.film-week__watch-btn:focus,
+.film-week__watch-btn:active {
+    box-shadow: 0px 0px 5px 10px var(--color-second);
 }
 
 .film-week__watch-trailer {
@@ -47,6 +57,15 @@
     height: 72px;
     background: url("../img/play.svg") no-repeat center center var(--color-second);
     border-radius: 6px;
+}
+
+.film-week__watch-trailer:hover {
+    box-shadow: 0px 0px 10px 10px var(--color-second);
+}
+
+.film-week__watch-trailer:focus,
+.film-week__watch-trailer:active {
+    box-shadow: 0px 0px 5px 10px var(--color-second);
 }
 
 @media (max-width: 1280px) {
